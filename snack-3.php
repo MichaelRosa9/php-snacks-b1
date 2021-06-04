@@ -54,9 +54,10 @@
     <?php foreach ($post as $content) {?>
     <li>
       <?php echo $date ?>
-      <span><?php echo $content['title'] ?></span>
-      <span><?php echo $content['text'] ?></span>
-      <span><?php echo $content['author'] ?></span>
+
+      <span> - <?php echo $content['title'] ?></span>
+      <span> - <?php echo $content['text'] ?></span>
+      <span> - <?php echo $content['author'] ?></span>
     </li>
 
     <?php }} ?> <!-- chiusura del foreach -->

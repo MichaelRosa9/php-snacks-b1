@@ -50,17 +50,13 @@
 
 
   <ul>
-    <?php foreach ($posts as $date => $post) {
-      
-    ?>
+    <?php foreach ($posts as $date => $post) {?>
     <li>
-      <?php echo $date ?> <?php echo $post['text'] ?>
-      <span>  </span>
+      <?php echo $date ?>
       <span> <?php echo $post['text'] ?> </span>
     </li>
-  <?php
-  
-  }?>    
+
+    <?php}?> <!-- chiusura del foreach -->
   </ul>
 </body>
 </html>

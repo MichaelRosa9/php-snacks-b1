@@ -51,12 +51,15 @@
 
   <ul>
     <?php foreach ($posts as $date => $post) {?>
+    <?php foreach ($post as $content) {?>
     <li>
       <?php echo $date ?>
-      <span> <?php echo $post['text'] ?> </span>
+      <span><?php echo $content['title'] ?></span>
+      <span><?php echo $content['text'] ?></span>
+      <span><?php echo $content['author'] ?></span>
     </li>
 
-    <?php}?> <!-- chiusura del foreach -->
+    <?php }} ?> <!-- chiusura del foreach -->
   </ul>
 </body>
 </html>

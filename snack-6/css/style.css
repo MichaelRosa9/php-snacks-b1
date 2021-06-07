@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grey-border {
+  border: solid 1px grey;
+}
+
+.green-border {
+  border: solid 1px green;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+}

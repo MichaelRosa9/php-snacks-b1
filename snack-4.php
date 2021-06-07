@@ -12,7 +12,7 @@
   
   <?php
     $random_numbers = [];
-    while(count($random_numbers) < 5){
+    while(count($random_numbers) < 15){
       $number = rand(1, 100);
       if(in_array($number, $random_numbers) === false){
         array_push($random_numbers, $number);
@@ -23,7 +23,6 @@
     var_dump($random_numbers);
   
   ?>
-
 
   
 </body>
